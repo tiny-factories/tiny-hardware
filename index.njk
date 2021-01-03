@@ -1,23 +1,26 @@
 ---
 layout: layouts/home.njk
-eleventyNavigation:
-  key: o.0
-  order: 1
 ---
-<section class="hero">
-<h1>future perfect</h1>
-
+<section class="center w-100">
+  <h1 class="fl w-100">Open Source doesn’t need to be hard to source.</h1>
+  <p class="fl w-100"></p>
 </section>
 
-
-<section class="concepts">
-  <h1>Concepts</h1>
- {% set postslist = collections.concepts %}
-{% include "concepts-preview.njk" %}
+<section class="center w-100">
+  <h2 class="fl w-100">Store</h2>
+  <p class="fl w-100"></p>
+  <div class="fl w-100">
+    {% set postslist = collections.store | head(-1) %}
+    {% set postslistCounter = collections.store | length %}
+    {% include "store-hero.njk" %}
+  </div>
+  <div class="center w-100">
+    {% set postslist = collections.store %}
+    {% include "store-gallery.njk" %}
+  </div>
 </section>
 
-
-<section>
-  <h1>Seen In</h1>
-
+<section class="center w-100">
+  <p class="fl w-100">Want to learn about future projects</p>
 </section>
+

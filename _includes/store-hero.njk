@@ -1,0 +1,17 @@
+<div reversed class="fl w-100" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
+  {% for post in postslist | reverse %}
+   <article class="fl  w-100 pa3">
+     <a href="{{ post.url | url }}" class="fl w-100 pa3 ba br3 b--white">
+     <div class="fl dib w-100 w-50-ns">
+       <h3 class="fl w-100">{{post.data.title}} {{post.data.type}}</h3>
+       <p class="center tc w-100">{{post.data.shipDate}}</p>
+       <button class="center w-100 br3">Explore</button>
+     </div>
+     <div class="fr dib w-100 w-50-ns">
+       <img src="{{post.data.previewImage}}" class="fl w-100"/>
+     </div>
+
+     </a>
+     </article>
+   {% endfor %}
+</div>

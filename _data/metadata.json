@@ -1,15 +1,16 @@
 {
-  "title": "Oh Dot Zero",
+  "title": "Tiny Hardware",
   "url": "https://ohdotzero.co/",
-  "description": "A community for people who are young in exploring their creative expressions.",
+  "heroImage": "https://ohdotzero.co/",
+  "description": "Open Source doesn’t need to be hard to source.",
   "feed": {
-    "subtitle": "A community for people who are young in exploring their creative expressions.",
+    "subtitle": "Open Source doesn’t need to be hard to source..",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "hhttps://tinyfactories.space/"
   },
   "author": {
     "name": "William Felker",
-    "email": "hello@tinyfactories.space"
+    "email": "hardware@tinyfactories.space"
   }
 }

@@ -1,0 +1,12 @@
+---
+title: Store
+layout: layouts/base.njk
+eleventyNavigation:
+  key: store
+  order: 1
+---
+
+<h1>{{title}}</h1>
+
+{% set postslist = collections.store %}
+{% include "store-gallery.njk" %}

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Oh Dot Zero</title>
-	<subtitle>A community for people who are young in exploring their creative expressions.</subtitle>
+	<title>Tiny Hardware</title>
+	<subtitle>Open Source doesn’t need to be hard to source..</subtitle>
 	
 	<link href="https://ohdotzero.co/feed/feed.xml" rel="self"/>
 	<link href="https://ohdotzero.co/"/>
-	<updated>2018-08-24T00:00:00+00:00</updated>
+	<updated>2018-08-24T08:00:00+08:00</updated>
 	<id>hhttps://tinyfactories.space/</id>
 	<author>
 		<name>William Felker</name>
-		<email>hello@tinyfactories.space</email>
+		<email>hardware@tinyfactories.space</email>
 	</author>
 	
 	<entry>
 		<title>San Francisco Climate Summit</title>
 		<link href="https://ohdotzero.co/posts/climate-award/"/>
-		<updated>2018-08-24T00:00:00+00:00</updated>
+		<updated>2018-08-24T08:00:00+08:00</updated>
 		<id>https://ohdotzero.co/posts/climate-award/</id>
 		<content type="html"></content>
 	</entry>
@@ -23,7 +23,7 @@
 	<entry>
 		<title>San Francisco Climate Summit</title>
 		<link href="https://ohdotzero.co/posts/impact-award/"/>
-		<updated>2018-08-24T00:00:00+00:00</updated>
+		<updated>2018-08-24T08:00:00+08:00</updated>
 		<id>https://ohdotzero.co/posts/impact-award/</id>
 		<content type="html"></content>
 	</entry>

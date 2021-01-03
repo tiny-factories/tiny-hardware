@@ -12,7 +12,27 @@
   </url>
   
   <url>
+    <loc>https://ohdotzero.co/store/aqi-color/</loc>
+    <lastmod>2018-08-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ohdotzero.co/store/raspi-4-mini-server-assembled/</loc>
+    <lastmod>2018-08-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ohdotzero.co/store/raspi-4-mini-server-diy/</loc>
+    <lastmod>2018-08-24</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ohdotzero.co/blog/</loc>
+    <lastmod>2021-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ohdotzero.co/store/</loc>
     <lastmod>2021-01-03</lastmod>
   </url>
   
@@ -38,6 +58,21 @@
   
   <url>
     <loc>https://ohdotzero.co/tags/second-tag/</loc>
+    <lastmod>2021-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ohdotzero.co/tags/store/</loc>
+    <lastmod>2021-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ohdotzero.co/tags/RasPi/</loc>
+    <lastmod>2021-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ohdotzero.co/tags/Server/</loc>
     <lastmod>2021-01-03</lastmod>
   </url>
 </urlset>

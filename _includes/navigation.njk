@@ -1,7 +1,17 @@
-<nav class="nav">
- {%- for entry in collections.all | eleventyNavigation %}
-        <div class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a> /</div>
-  {%- endfor %}
+
+<nav class="dt w-100 pa3-ns">
+  <div class="dtc v-mid w-50 tl">
+  <div class="link dib{% if entry.url === page.url %}link dib b{% endif %}">
+    <a href="/">{{metadata.title}}</a>
+  </div>
+  </div>
+  <div class="dtc v-mid w-15 tr">
+
+  {%- for entry in collections.all | eleventyNavigation %}
+  <div class="link dib{% if entry.url === page.url %}link dib b{% endif %}">
+    <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+  </div>
+{%- endfor %}
 </nav>
 
 
