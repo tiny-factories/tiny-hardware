@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&display=swap');
+
+:root {
+  --background: #ffffff;
+  --darkred: #7F0036;
+  --lightgray: #e0e0e0;
+  --gray: #C0C0C0;
+  --darkgray: #333;
+  --navy: #17050F;
+  --blue: #082840;
+  --white: #fff;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+html,
+body {
+  padding: 0;
+  margin: auto;
+  font-family: 'DM Mono', helvetica;
+  color: #6C0ED4;
+  background-color: var(--background);
+  font-weight: 300;
+  width: 100%;
+  
+}
+
+h1{
+  font-size:29px;
+  font-weight: 300;
+  
+}
+
+p{
+ text-align: center;
+
+}
+p:last-child {
+  margin-bottom: 0;
+}
+p,
+.tmpl-post li,
+img {
+  max-width: 37.5em; /* 600px /16 */
+}
+p,
+.tmpl-post li {
+  line-height: 1.45;
+}
+a[href] {
+  color: var(--blue);
+}
+a[href]:visited {
+  color: var(--navy);
+}
+main {
+  padding: 1rem;
+}
+main :first-child {
+  margin-top: 0;
+}
+header {
+  border-bottom: 1px dashed var(--lightgray);
+}
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+table {
+  margin: 1em 0;
+}
+table td,
+table th {
+  padding-right: 1em;
+}
+
+pre,
+code {
+  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  line-height: 1.5;
+}
+pre {
+  font-size: 14px;
+  line-height: 1.375;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  -moz-tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  padding: 1em;
+  margin: .5em 0;
+  background-color: #f6f6f6;
+}
+
+.hero{
+  width: 100%;
+  height: 50%;
+  background-image: url("https://media.giphy.com/media/3ohzdZpnnsP7Y3fWne/source.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+/* Direct Links / Markdown Headers */
+
+a[href].direct-link,
+a[href].direct-link:visited {
+  color: transparent;
+}
+a[href].direct-link:focus,
+a[href].direct-link:focus:visited,
+:hover > a[href].direct-link,
+:hover > a[href].direct-link:visited {
+  color: #aaa;
+}
+
+
+/* Nav */
+nav {
+  padding: 0;
+  margin-top:10px;
+  list-style: none;
+  text-align: center;
+  color: #6C0ED4;
+}
+.nav-item {
+  display: inline-block;
+  margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+  text-decoration: none;
+}
+.nav-item-active {
+  font-weight: 500;
+}
+
+.hero{
+  background-image: url("https://cdn.glitch.com/dfd39d36-c364-47be-9329-5f886697c3d2%2Fthumbnails%2Fsmall%20house.001.jpeg?1609672951943");
+  background-size: cover
+}
+
+.concepts{
+    background-image: url("https://cdn.glitch.com/dfd39d36-c364-47be-9329-5f886697c3d2%2Fthumbnails%2Fsmall%20house.001.jpeg?1609672951943");
+  background-size: cover
+
+
+}
+.awards{
+
+
+}
+
