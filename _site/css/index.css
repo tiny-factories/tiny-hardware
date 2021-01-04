@@ -11,9 +11,9 @@
 }
 @media (prefers-color-scheme: light) {
   :root {
-    --background: #f5f2e2;
-    --text: #1e1e20;
-    --highlight: #70ad89;
+  --background: #1e1e20;
+  --text: #f5f2e2;
+  --highlight: #70ad89;
   }
 }
 
