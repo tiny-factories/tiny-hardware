@@ -1,6 +1,6 @@
 ---
 title: RasPi 4 mini Server
-type: DIY Kit
+type: N-O-D-E
 creator: name
 creatorUrl: link
 projectSource: slink
