@@ -18,59 +18,57 @@
 }
 
 :root {
-  --maxWidth: 60%;
+  --maxWidth: 850px;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 /*Fonts*/
-@supports (font-variation-settings: normal) {
-  body {
-    font-family: "Fira Code VF", monospace;
-  }
-}
+
 .monaco-editor {
   font-feature-settings: "ss01", "ss02", "ss03", "ss04", "ss05", "ss06", "zero",
     "onum";
 }
+.debug-grid {
+
+}
 
 html,
 body {
-  padding: 0;
-  margin: auto;
+
   font-family: "Fira Code", monospace;
   color: var(--text);
   background-color: var(--background);
-  font-weight: 300;
-  width: 100%;
 }
 
 h1 {
   font-family: "Fira Code", monospace;
-
   font-style: normal;
   font-weight: normal;
   font-weight: 400;
   font-size: 48px;
   line-height: 59px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 h2 {
   font-family: "Fira Code", monospace;
   font-style: normal;
   font-weight: normal;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 39px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 h3 {
   font-family: "Fira Code", monospace;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 22px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
 }
 
 p {
@@ -83,69 +81,17 @@ p {
 p:last-child {
   margin-bottom: 0;
 }
-p,
-.tmpl-post li,
-img {
-  max-width: 37.5em; /* 600px /16 */
-}
-p,
-.tmpl-post li {
-  line-height: 1.45;
-}
+
+
 a[href] {
-  color: var(--blue);
+  color: var(--text);
+  text-decoration: none;
 }
 a[href]:visited {
-  color: var(--navy);
+  color: var(--text);
 }
-main {
-  padding: 1rem;
-}
-main :first-child {
-  margin-top: 0;
-}
-header {
-  border-bottom: 1px dashed var(--lightgray);
-}
-header:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-table {
-  margin: 1em 0;
-}
-table td,
-table th {
-  padding-right: 1em;
-}
-
-pre,
-code {
-  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono",
-    "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono",
-    "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L",
-    "Courier New", Courier, monospace;
-  line-height: 1.5;
-}
-pre {
-  font-size: 14px;
-  line-height: 1.375;
-  direction: ltr;
-  text-align: left;
-  white-space: pre;
-  word-spacing: normal;
-  word-break: normal;
-  -moz-tab-size: 2;
-  -o-tab-size: 2;
-  tab-size: 2;
-  -webkit-hyphens: none;
-  -moz-hyphens: none;
-  -ms-hyphens: none;
-  hyphens: none;
-  padding: 1em;
-  margin: 0.5em 0;
-  background-color: #f6f6f6;
+a[href]:hover {
+  color: var(--highlight);
 }
 
 /* Direct Links / Markdown Headers */
@@ -165,7 +111,7 @@ button {
   background-color: var(--background);
   border: 2px solid var(--highlight);
   color: var(--highlight);
-  padding: 15px 32px;
+  padding: 10px 24px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -200,11 +146,40 @@ nav {
 /* Sections */
 section {
   max-width: var(--maxWidth);
+  margin: auto;
+}
+
+.hero {
+  padding-top: 20vh;
+
+}
+.store{
+  padding-top: 100px;
+}
+.newsletter{
+padding-top: 20vh;
+padding-bottom: 20vh;
+
+
 }
 
 .ship-date {
   opacity: 0.2;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 11px;
+  align-items: center;
+  text-align: center;
 }
+.creator {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 11px;
+}
+
+
 
 /*POST*/
 .dropdown-content {

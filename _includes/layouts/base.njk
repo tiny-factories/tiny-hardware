@@ -25,7 +25,6 @@
 
     <!-- Imports -->
     <link rel="stylesheet" href="{{ '/css/index.css' | url }}">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@4/distr/fira_code.css">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
 
@@ -35,12 +34,15 @@
       {% include "navigation.njk" %}
     </header>
 
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-
+    <main class="">
+      <div class="flex items-center justify-center pa4 bg-lightest-blue navy">
+        <span class="lh-title ml3">🚧 Ops! We aren't ready just yet, so some content may just be a placeholders. 🚧</span>
+      </div>
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    {% include "footer.njk" %}
+
 
     <!-- Current page: {{ page.url | url }} -->
   </body>

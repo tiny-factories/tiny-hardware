@@ -6,7 +6,10 @@ eleventyNavigation:
   order: 1
 ---
 
-<h1>{{title}}</h1>
+<section class="hero center ph3" style="margin-top: 20vh; ">
+  <h1>{{title}}</h1>
 
-{% set postslist = collections.store %}
-{% include "store-gallery.njk" %}
+  {% set postslist = collections.store %}
+  {% include "store-gallery.njk" %}
+
+</section>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<title>Tiny Hardware</title>
+	<title>tiny hardware club</title>
 	<subtitle>Open Source doesn’t need to be hard to source..</subtitle>
 	
-	<link href="https://ohdotzero.co/feed/feed.xml" rel="self"/>
-	<link href="https://ohdotzero.co/"/>
+	<link href="https://tinyhardware.club/feed/feed.xml" rel="self"/>
+	<link href="https://tinyhardware.club/"/>
 	<updated>2018-08-24T08:00:00+08:00</updated>
 	<id>hhttps://tinyfactories.space/</id>
 	<author>
@@ -14,17 +14,17 @@
 	
 	<entry>
 		<title>San Francisco Climate Summit</title>
-		<link href="https://ohdotzero.co/posts/climate-award/"/>
+		<link href="https://tinyhardware.club/posts/climate-award/"/>
 		<updated>2018-08-24T08:00:00+08:00</updated>
-		<id>https://ohdotzero.co/posts/climate-award/</id>
+		<id>https://tinyhardware.club/posts/climate-award/</id>
 		<content type="html"></content>
 	</entry>
 	
 	<entry>
 		<title>San Francisco Climate Summit</title>
-		<link href="https://ohdotzero.co/posts/impact-award/"/>
+		<link href="https://tinyhardware.club/posts/impact-award/"/>
 		<updated>2018-08-24T08:00:00+08:00</updated>
-		<id>https://ohdotzero.co/posts/impact-award/</id>
+		<id>https://tinyhardware.club/posts/impact-award/</id>
 		<content type="html"></content>
 	</entry>
 </feed>

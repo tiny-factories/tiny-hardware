@@ -6,12 +6,13 @@
   </div>
   </div>
   <div class="dtc v-mid w-15 tr">
-
-  {%- for entry in collections.all | eleventyNavigation %}
+    <a href="/store/" class="link dib{% if entry.url === page.url %}link dib b{% endif %}">store</a> ᐧ
+    <a href="/blog/" class="link dib{% if entry.url === page.url %}link dib b{% endif %}">newsletter</a>
+  {# {%- for entry in collections.all | eleventyNavigation %}
   <div class="link dib{% if entry.url === page.url %}link dib b{% endif %}">
     <a href="{{ entry.url | url }}">{{ entry.title }}</a>
   </div>
-{%- endfor %}
+{%- endfor %} #}
 </nav>
 
 
