@@ -1,7 +1,9 @@
 <div reversed class="fl w-100" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
 {% for post in postslist | reverse %}
   <article class="fl w-100 w-50-ns pa3">
-    <a href="{{ post.url | url }}" class="fl w-100 pa3">
+
+    {# <a href="{{ post.url | url }}" class="fl w-100 pa3"> #}
+    <a href="https://tiny-factories.typeform.com/to/yu084qhA" target="_blank" rel="noopener noreferrer" class="fl w-100 pa3">
       <div class="project-card pa3">
         <h3 class="fl w-100">{{post.data.title}} [{{post.data.type}}]</h3>
         <p class="creator pv2">by {{post.data.creator}}</p>

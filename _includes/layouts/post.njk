@@ -2,22 +2,39 @@
 layout: layouts/base.njk
 templateClass: tmpl-post
 ---
-<h1><div class="dib">{{ title }}</div>
 
-
-<div class="dib dropdown">
-  <button class="dropbtn">[ {{type}} ]
-    <i class="fa fa-caret-down"></i>
-  </button>
-  <div class="dropdown-content">
-  {# <a href="{{ post.title | slug}} + {{ post.type}}">[ {{type}} ]</a> #}
-    <a href="">[ {{type}} ]</a>
-    <a href="">[ Assembled ]</a>
-     {# TODO: Add logic to toggle between DIY and Assembled products #}
+<section class="">
+  <div class="center">
+    <div class="cf ph2-ns">
+      <div class="fl w-100 w-100-m w-50-ns pa3">
+        <h1><div class="dib">{{ title }}</div>
+        {# <div class="dib dropdown">
+          <button class="dropbtn">[ {{type}} ]
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="">[ {{type}} ]</a>
+            <a href="">[ Assembled ]</a>
+             TODO: Add logic to toggle between DIY and Assembled products
+          </div>
+        </div> #}
+        </h1>
+      </div>
+      <div class="fl w-100 w-100-m w-50-ns pa3">
+        <img src="{{post.data.previewImage}}"/>
+      </div>
+    </div>
   </div>
-</div>
-</h1>
+  <div class="center">
+    <div class="cf ph2-ns">
+      <div class="fl w-100 w-100-m w-50-ns pa3">
+      {{ content | safe }}
+    </div>
+    </div>
+  </div>
+</section>
 
-{{ content | safe }}
 
-<p><a href="{{ '/' | url }}">← Home</a></p>
+
+
+

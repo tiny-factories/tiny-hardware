@@ -11,6 +11,8 @@ Hello, this is the tiny hardware club! We create diy and assembled kits for make
 
 ## Contributing or recommending a project:
 
+- TBD
+
 ## Our Tools:
 
 - Vercel
