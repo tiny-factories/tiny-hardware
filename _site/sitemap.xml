@@ -57,6 +57,11 @@
   </url>
   
   <url>
+    <loc>https://tinyhardware.club/tags/second-tag/</loc>
+    <lastmod>2021-01-03</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tinyhardware.club/tags/store/</loc>
     <lastmod>2021-01-03</lastmod>
   </url>
@@ -68,11 +73,6 @@
   
   <url>
     <loc>https://tinyhardware.club/tags/Server/</loc>
-    <lastmod>2021-01-03</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tinyhardware.club/tags/second-tag/</loc>
     <lastmod>2021-01-03</lastmod>
   </url>
 </urlset>

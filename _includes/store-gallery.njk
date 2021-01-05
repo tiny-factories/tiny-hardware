@@ -1,6 +1,6 @@
 <div reversed class="fl w-100" style="counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }}">
 {% for post in postslist | reverse %}
-  <article class=" fl w-100 w-50-ns pa3">
+  <article class="fl w-100 w-50-ns pa3">
     <a href="{{ post.url | url }}" class="fl w-100 pa3">
       <div class="project-card pa3">
         <h3 class="fl w-100">{{post.data.title}} [{{post.data.type}}]</h3>
@@ -11,7 +11,6 @@
       <div class="fl w-100">
         <button class="button-card">Explore</button>
       </div>
-
   </a>
   </article>
 {% endfor %}

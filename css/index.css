@@ -92,10 +92,22 @@ a[href]:visited {
 }
 a[href]:hover {
   color: var(--highlight);
-  border: 2px solid var(--highlight);
-  border-bottom: none;
-  border-radius: 3px 3px 0px 0px;
+
 }
+
+a[href]:hover button {
+ background-color: var(--highlight);
+ border: 2px solid var(--highlight);
+ color: var(--text);
+
+}
+
+
+
+a[href]:hover .project-card {
+   border: 2px solid var(--highlight);
+
+  }
 
 /* Direct Links / Markdown Headers */
 
@@ -112,13 +124,14 @@ a[href].direct-link:focus:visited,
 
 button {
   background-color: var(--background);
-  border: 2px solid var(--highlight);
-  color: var(--highlight);
+  border: 2px solid var(--text);
+  color: var(--text);
   padding: 10px 24px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   bottom: 0;
+  width: 100%;
 }
 button:hover {
   background-color: var(--highlight);
