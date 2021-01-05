@@ -1,6 +1,6 @@
 ---
 title: RasPi 4 mini Server
-type: Assembled Kit
+type: Assembled
 creator: N-O-D-E
 creatorUrl:
 projectSource:
@@ -14,9 +14,8 @@ layout: layouts/post.njk
 previewImage: https://media.giphy.com/media/gw3IWyGkC0rsazTi/giphy.gif
 ---
 
-
-
 Raspberry Pi 4
+
 - Pololu USB 2.0 Type-C Connector Breakout
 - USB-C Male Plug Breakout Board
 - Micro HDMI Male Component (Wedge Type https://www.aliexpress.com/item/32648810091.html)

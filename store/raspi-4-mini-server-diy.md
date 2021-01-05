@@ -1,7 +1,7 @@
 ---
 title: RasPi 4 mini Server
-type: N-O-D-E
-creator: name
+type: DIY
+creator: N-O-D-E
 creatorUrl: link
 projectSource: slink
 description: This is a post on My Blog about win-win survival strategies.
