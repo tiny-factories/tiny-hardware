@@ -1,0 +1,32 @@
+[
+  {
+    "name": "William Felker",
+    "handle": "gndclouds",
+    "tags": ["one", "two"],
+    "social": {
+      "twitter": "twitter",
+      "github": "github",
+      "website": "www.rareform.com"
+    }
+  },
+  {
+    "name": "Weiwei Hsu",
+    "handle": "glitchyowl",
+    "tags": ["one", "two"],
+    "social": {
+      "twitter": "twitter",
+      "github": "github",
+      "website": "www.rareform.com"
+    }
+  },
+    {
+    "name": "Tomo Kihara",
+    "handle": "gndclouds",
+    "tags": ["one", "two"],
+    "social": {
+      "twitter": "twitter",
+      "github": "github",
+      "website": "www.rareform.com"
+    }
+  }
+]

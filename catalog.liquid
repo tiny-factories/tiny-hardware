@@ -1,0 +1,32 @@
+---
+title: catalog
+layout: layouts/base.njk
+eleventyNavigation:
+  key: catalog
+  order: 2
+---
+
+<section class="hero center ph3" style="margin-top: 20vh; ">
+ <h1>{{title}}</h1>
+{% for film in catalog %}
+ <br>
+  <div>
+  <a href= "{{ film.source }}" target="blank">
+    <h2 class="f4 bg-near-black white mv0 pv2 ph3" style="margin-bottom: 15px">{{ film.name}}</h2>
+  </a>
+  <p>{{ film.authorName}}</p>
+<p>{{ film.authorURL}}</p>
+<p>{{ film.source}}</p>
+<p>{{ film.tags}}</p>
+<p>{{ film.requestNumber}}</p>
+
+    <img class="tf_images" src="{{ film.profile_pic }}" style="margin-top: 20px" alt="profile_pic">
+
+      <br>
+
+    <p class="separater_line"></p>
+
+  </div>
+{% endfor %}
+
+</section>
