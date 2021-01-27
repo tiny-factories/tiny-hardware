@@ -12,8 +12,9 @@ async function getFilms() {
   await client.connect();
   const db = client.db("hardware");
   const films = db.collection("catalog");
-  const filmArray = await films.find({}).toArray(); // this is what the
+  const filmArray = await films.find({}).toArray(); // this is what the qurry is looking form
   await client.close();
+  console.log("connection closed");
 
   return filmArray;
   console.log(filmArray);
